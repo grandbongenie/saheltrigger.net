@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lives | Sahel Trigger</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="live.css" />
+</head>
+<body>
+  <div class="nav-band">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-logo" href="index.html" aria-label="Sahel Trigger home">
+        <img src="LOGO_SAHEL_TRIGGER.png" alt="Sahel Trigger logo" />
+      </a>
+      <a href="reforestation.html">Reforestation</a>
+      <a class="active" href="live.html">Live</a>
+      <a href="report.html">Report</a>
+    </nav>
+  </div>
+
+  <main class="page">
+    <section class="player">
+      <div class="video-frame" aria-label="Video stream container">
+        <video id="stream" controls playsinline poster="">
+          <source src="" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-caption">Live Stream</div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <h1>Live</h1>
+      <p>
+        Latest videos with thumbnails. Upload files to <code>/videotory/</code>.
+      </p>
+    </section>
+
+    <section class="panel">
+      <div class="status" id="status">Loading videos…</div>
+      <div class="video-grid" id="video-grid"></div>
+    </section>
+
+    <section class="note">
+      <h2>Optional manifest</h2>
+      <p>
+        If your server does not expose directory listing, create
+        <code>/videotory/manifest.json</code> with:
+      </p>
+      <pre>{
+  "items": [
+    { "url": "clip-2026-02-21.mp4", "title": "Field update", "thumb": "clip-2026-02-21.jpg" }
+  ]
+}</pre>
+    </section>
+  </main>
+
+  <script src="live.js"></script>
+</body>
+</html>

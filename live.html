@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lives | Sahel Trigger</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="live.css" />
+</head>
+<body>
+  <div class="nav-band">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-logo" href="index.html" aria-label="Sahel Trigger home">
+        <img src="LOGO_SAHEL_TRIGGER.png" alt="Sahel Trigger logo" />
+      </a>
+      <a href="reforestation.html">Reforestation</a>
+      <a class="active" href="live.html">Live</a>
+      <a href="report.html">Report</a>
+    </nav>
+  </div>
+
+  <main class="page">
+    <section class="player">
+      <div class="video-frame" aria-label="Video stream container">
+        <video id="mainPlayer" autoplay muted controls playsinline crossorigin="anonymous" poster=""></video>
+        <div class="video-caption">Live / Replay / Archive</div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:10px;">
+        <div id="streamStatus" class="status">Initialisation…</div>
+        <button id="unmuteBtn" type="button" style="display:none;">Unmute</button>
+        <label for="subtitleLang">Subtitles:</label>
+        <select id="subtitleLang">
+          <option value="fr" selected>FR</option>
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+        </select>
+      </div>
+      <div id="archiveAccessMessage" class="status" style="margin-top:8px;"></div>
+    </section>
+
+    <section class="panel" style="margin-top:22px;">
+      <h2>Archives</h2>
+      <p>Visible to everyone. Private playback requires mTLS certificate.</p>
+      <ul id="archivesList" style="list-style:none;padding:0;margin:0;"></ul>
+    </section>
+  </main>
+
+  <script src="/public/js/hls.min.js"></script>
+  <script src="/public/js/live-player.js?v=20260307-1940" defer></script>
+</body>
+</html>

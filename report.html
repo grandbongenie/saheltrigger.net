@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Report | Sahel Trigger</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="report.css" />
+</head>
+<body>
+  <div class="nav-band">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-logo" href="index.html" aria-label="Sahel Trigger home">
+        <img src="LOGO_SAHEL_TRIGGER.png" alt="Sahel Trigger logo" />
+      </a>
+      <a href="reforestation.html">Reforestation</a>
+      <a href="live.html">Live</a>
+      <a class="active" href="report.html">Report</a>
+    </nav>
+  </div>
+
+  <main class="page">
+    <section class="hero">
+      <h1>Report</h1>
+      <p>
+        Upload and publish files in three tracks: Monthly, Weekly, and Daily.
+        The page displays one Monthly Report, one Monthly Fact Sheet, one Weekly
+        Report, and one Daily Report.
+      </p>
+    </section>
+
+    <section class="panel">
+      <div class="status" id="status">Loading uploads…</div>
+      <div class="report-columns">
+        <article class="report-column">
+          <h2>Monthly</h2>
+          <ul class="slot-list">
+            <li id="monthly-report-slot"></li>
+            <li id="monthly-factsheet-slot"></li>
+          </ul>
+        </article>
+
+        <article class="report-column">
+          <h2>Weekly</h2>
+          <ul class="slot-list">
+            <li id="weekly-report-slot"></li>
+          </ul>
+        </article>
+
+        <article class="report-column">
+          <h2>Daily</h2>
+          <ul class="slot-list">
+            <li id="daily-report-slot"></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="note">
+      <h2>Manifest Format</h2>
+      <p>
+        To control exactly which files appear, create
+        <code>/reportory/manifest.json</code> with this structure:
+      </p>
+      <pre>{
+  "monthly": {
+    "report": { "url": "monthly-report-2026-02.pdf", "title": "Monthly Report - Feb 2026" },
+    "factsheet": { "url": "monthly-fact-sheet-2026-02.pdf", "title": "Monthly Fact Sheet - Feb 2026" }
+  },
+  "weekly": {
+    "report": { "url": "weekly-report-2026-02-23.pdf", "title": "Weekly Report - 23 Feb 2026" }
+  },
+  "daily": {
+    "report": { "url": "daily-report-2026-02-28.pdf", "title": "Daily Report - 28 Feb 2026" }
+  }
+}</pre>
+    </section>
+  </main>
+
+  <script src="report.js"></script>
+</body>
+</html>

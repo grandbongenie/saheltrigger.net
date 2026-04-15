@@ -1,0 +1,600 @@
+[
+  {
+    "id": "sahel-trigger-2026-03-17-134303",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:43:03Z",
+    "durationSeconds": 89.621,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-134303.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-134303/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-134303/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-134303/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-17-133928",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:39:28Z",
+    "durationSeconds": 29.418,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-133928.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-133928/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-133928/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-133928/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-17-133656",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:36:56Z",
+    "durationSeconds": 107.69,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-133656.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-133656/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-133656/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-133656/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-17-132859",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:28:59Z",
+    "durationSeconds": 23.658,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-132859.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-132859/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-132859/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-132859/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-17-131314",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:13:14Z",
+    "durationSeconds": 3.754,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-131314.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-131314/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-131314/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-131314/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-17-130926",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:09:26Z",
+    "durationSeconds": 21.759,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-130926.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-130926/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-130926/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-130926/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-17-130152",
+    "title": "Sahel Trigger 2026-03-17",
+    "dateISO": "2026-03-17T13:01:52Z",
+    "durationSeconds": 233.919,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-17-130152.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-17-130152/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-17-130152/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-17-130152/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-16-191855",
+    "title": "Sahel Trigger 2026-03-16",
+    "dateISO": "2026-03-16T19:18:55Z",
+    "durationSeconds": 20.266,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-16-191855.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-16-191855/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-16-191855/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-16-191855/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-16-170753",
+    "title": "Sahel Trigger 2026-03-16",
+    "dateISO": "2026-03-16T17:07:53Z",
+    "durationSeconds": 5775.854,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-16-170753.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-16-170753/fr.vtt",
+      "en": "",
+      "es": ""
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-16-170753/subtitles.fr.vtt",
+        "en": "",
+        "es": ""
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-09-143504",
+    "title": "Sahel Trigger 2026-03-09",
+    "dateISO": "2026-03-09T14:35:04Z",
+    "durationSeconds": 639.103,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-09-143504.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-09-143504/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-09-143504/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-09-143504/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-08-022008",
+    "title": "Sahel Trigger 2026-03-08",
+    "dateISO": "2026-03-08T02:20:08Z",
+    "durationSeconds": 33.044,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-08-022008.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-08-022008/fr.vtt",
+      "en": "",
+      "es": ""
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-08-022008/subtitles.fr.vtt",
+        "en": "",
+        "es": ""
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-08-013025",
+    "title": "Sahel Trigger 2026-03-08",
+    "dateISO": "2026-03-08T01:30:25Z",
+    "durationSeconds": 28.628,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-08-013025.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-08-013025/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-08-013025/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-08-013025/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-08-011024",
+    "title": "Sahel Trigger 2026-03-08",
+    "dateISO": "2026-03-08T01:10:24Z",
+    "durationSeconds": 106.538,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-08-011024.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-08-011024/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-08-011024/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-08-011024/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-08-001606",
+    "title": "Sahel Trigger 2026-03-08",
+    "dateISO": "2026-03-08T00:16:06Z",
+    "durationSeconds": 126.122,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-08-001606.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-08-001606/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-08-001606/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-08-001606/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-201640",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T20:16:40Z",
+    "durationSeconds": 109.46,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-201640.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-201640/fr.vtt",
+      "en": "",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-201640/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-201640/subtitles.fr.vtt",
+        "en": "",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-201640/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-192520",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T19:25:20Z",
+    "durationSeconds": 100.587,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-192520.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-192520/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-07-192520/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-192520/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/metadata.json",
+      "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/transcript_raw.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/transcript.txt",
+      "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/translated_segments.json",
+      "extracted_audio_key": ""
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-185613",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T18:56:13Z",
+    "durationSeconds": 100.522,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-185613.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-185613/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-07-185613/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-185613/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-185613/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-185613/metadata.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-185613/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-185613/transcript.txt"
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-175659",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T17:56:59Z",
+    "durationSeconds": 109.738,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-175659.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-175659/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-07-175659/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-175659/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-175659/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-175659/metadata.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-175659/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-175659/transcript.txt"
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-174459",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T17:44:59Z",
+    "durationSeconds": 113.322,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-174459.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-174459/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-07-174459/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-174459/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-174459/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-174459/metadata.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-174459/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-174459/transcript.txt"
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-172909",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T17:29:09Z",
+    "durationSeconds": 45.954,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-172909.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-172909/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-07-172909/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-172909/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-172909/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-172909/metadata.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-172909/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-172909/transcript.txt"
+    },
+    "public": false
+  },
+  {
+    "id": "sahel-trigger-2026-03-07-171700",
+    "title": "Sahel Trigger 2026-03-07",
+    "dateISO": "2026-03-07T17:17:00Z",
+    "durationSeconds": 45.32,
+    "localUrl": "/archives/media/2026/03/sahel-trigger-2026-03-07-171700.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/sahel-trigger-2026-03-07-171700/fr.vtt",
+      "en": "/archives/subtitles/sahel-trigger-2026-03-07-171700/en.vtt",
+      "es": "/archives/subtitles/sahel-trigger-2026-03-07-171700/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/sahel-trigger-2026-03-07-171700/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/sahel-trigger-2026-03-07-171700/subtitles.fr.vtt",
+        "en": "archives/2026/03/sahel-trigger-2026-03-07-171700/subtitles.en.vtt",
+        "es": "archives/2026/03/sahel-trigger-2026-03-07-171700/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/sahel-trigger-2026-03-07-171700/metadata.json",
+      "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-07-171700/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-07-171700/transcript.txt"
+    },
+    "public": false
+  },
+  {
+    "id": "saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z",
+    "title": "saheltrigger/2026-03-04_18-57-37-907701-retry2.mp4",
+    "dateISO": "2026-03-04T19:09:58Z",
+    "durationSeconds": 83.254,
+    "localUrl": "/archives/media/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/fr.vtt",
+      "en": "/archives/subtitles/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/en.vtt",
+      "es": "/archives/subtitles/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/es.vtt"
+    },
+    "object": {
+      "video_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.fr.vtt",
+        "en": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.en.vtt",
+        "es": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/metadata.json",
+      "transcript_verbose_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/transcript_verbose.json",
+      "transcript_text_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/transcript.txt"
+    },
+    "public": false
+  },
+  {
+    "id": "saheltrigger-main-20260302T193305Z",
+    "title": "saheltrigger/main",
+    "dateISO": "2026-03-02T19:33:05Z",
+    "durationSeconds": 4.0,
+    "localUrl": "/archives/media/2026/03/saheltrigger-main-20260302T193305Z.mp4",
+    "subtitles": {
+      "fr": "/archives/subtitles/saheltrigger-main-20260302T193305Z/fr.vtt",
+      "en": "/archives/subtitles/saheltrigger-main-20260302T193305Z/en.vtt",
+      "es": "/archives/subtitles/saheltrigger-main-20260302T193305Z/es.vtt"
+    },
+    "public": false,
+    "object": {
+      "video_key": "archives/2026/03/saheltrigger-main-20260302T193305Z/video.mp4",
+      "subs": {
+        "fr": "archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.fr.vtt",
+        "en": "archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.en.vtt",
+        "es": "archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.es.vtt"
+      },
+      "meta_key": "archives/2026/03/saheltrigger-main-20260302T193305Z/metadata.json"
+    }
+  }
+]

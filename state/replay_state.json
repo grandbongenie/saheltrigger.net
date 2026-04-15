@@ -1,0 +1,22 @@
+{
+  "id": "sahel-trigger-2026-03-17-134303",
+  "title": "Sahel Trigger 2026-03-17",
+  "project": "saheltrigger",
+  "streamKey": "2026-03-17_13-41-33-593179.mp4",
+  "dateISO": "2026-03-17T13:43:03Z",
+  "durationSeconds": 89.621,
+  "publicUntil": "2026-03-17T13:44:03Z",
+  "assetMp4": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/sahel-trigger-2026-03-17-134303.mp4",
+  "assetSubtitles": {
+    "fr": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/fr.vtt",
+    "en": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/en.vtt",
+    "es": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/es.vtt"
+  },
+  "assetTranscriptRaw": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/transcript_raw.json",
+  "assetTranscriptVerbose": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/transcript_verbose.json",
+  "assetTranscriptText": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/transcript.txt",
+  "assetTranslatedSegments": "/var/www/sites/saheltrigger.net/state/assets/sahel-trigger-2026-03-17-134303/translated_segments.json",
+  "assetExtractedAudio": "",
+  "archived": true,
+  "uploaded": true
+}

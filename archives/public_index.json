@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-03-17T13:53:25Z",
+  "validUntil": "2026-03-24T13:53:25Z",
+  "archives": [
+    {
+      "id": "sahel-trigger-2026-03-17-134303",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:43:03Z",
+      "durationSeconds": 89.621,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-133928",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:39:28Z",
+      "durationSeconds": 29.418,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-133656",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:36:56Z",
+      "durationSeconds": 107.69,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-132859",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:28:59Z",
+      "durationSeconds": 23.658,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-131314",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:13:14Z",
+      "durationSeconds": 3.754,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-130926",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:09:26Z",
+      "durationSeconds": 21.759,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-130152",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:01:52Z",
+      "durationSeconds": 233.919,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-16-191855",
+      "title": "Sahel Trigger 2026-03-16",
+      "dateISO": "2026-03-16T19:18:55Z",
+      "durationSeconds": 20.266,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-16-170753",
+      "title": "Sahel Trigger 2026-03-16",
+      "dateISO": "2026-03-16T17:07:53Z",
+      "durationSeconds": 5775.854,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-09-143504",
+      "title": "Sahel Trigger 2026-03-09",
+      "dateISO": "2026-03-09T14:35:04Z",
+      "durationSeconds": 639.103,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-022008",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T02:20:08Z",
+      "durationSeconds": 33.044,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-013025",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T01:30:25Z",
+      "durationSeconds": 28.628,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-011024",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T01:10:24Z",
+      "durationSeconds": 106.538,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-001606",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T00:16:06Z",
+      "durationSeconds": 126.122,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-201640",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T20:16:40Z",
+      "durationSeconds": 109.46,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-192520",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T19:25:20Z",
+      "durationSeconds": 100.587,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-185613",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T18:56:13Z",
+      "durationSeconds": 100.522,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-175659",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T17:56:59Z",
+      "durationSeconds": 109.738,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-174459",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T17:44:59Z",
+      "durationSeconds": 113.322,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-172909",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T17:29:09Z",
+      "durationSeconds": 45.954,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z",
+      "title": "saheltrigger/2026-03-04_18-57-37-907701-retry2.mp4",
+      "dateISO": "2026-03-04T19:09:58Z",
+      "durationSeconds": 83.254,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    },
+    {
+      "id": "saheltrigger-main-20260302T193305Z",
+      "title": "saheltrigger/main",
+      "dateISO": "2026-03-02T19:33:05Z",
+      "durationSeconds": 4.0,
+      "status": "ok",
+      "subtitleLanguages": [
+        "fr",
+        "en",
+        "es"
+      ]
+    }
+  ]
+}

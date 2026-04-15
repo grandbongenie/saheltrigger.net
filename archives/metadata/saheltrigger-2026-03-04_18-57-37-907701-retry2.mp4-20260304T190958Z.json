@@ -1,0 +1,17 @@
+{
+  "id": "saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z",
+  "title": "saheltrigger/2026-03-04_18-57-37-907701-retry2.mp4",
+  "dateISO": "2026-03-04T19:09:58Z",
+  "durationSeconds": 83.254,
+  "object": {
+    "video_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/video.mp4",
+    "subs": {
+      "fr": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.fr.vtt",
+      "en": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.en.vtt",
+      "es": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.es.vtt"
+    },
+    "meta_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/metadata.json",
+    "transcript_verbose_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/transcript_verbose.json",
+    "transcript_text_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/transcript.txt"
+  }
+}

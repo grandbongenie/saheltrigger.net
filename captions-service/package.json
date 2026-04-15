@@ -1,0 +1,15 @@
+{
+  "name": "saheltrigger-captions-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Low-latency live captions bridge: RTMP audio -> OpenAI Realtime transcription -> WebSocket captions",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  }
+}

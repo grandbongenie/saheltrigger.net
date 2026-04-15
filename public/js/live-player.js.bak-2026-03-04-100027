@@ -1,0 +1,309 @@
+(function () {
+  'use strict';
+
+  // === CONFIG ===
+  // Path MediaMTX correspondant EXACTEMENT à ton publish RTMP:
+  // rtmp://87.106.4.97:8443/live/saheltrigger  => path = "live/saheltrigger"
+  const STREAM_PATH = 'live/saheltrigger';
+
+  // MediaMTX expose WHEP sur /<path>/whep (PAS /whep/<path>)
+  const WHEP_URL = `/${STREAM_PATH}/whep`;
+
+  // À ADAPTER selon ton setup HLS (selon que tu proxies /hls/* ou pas).
+  // Souvent c’est /<path>/index.m3u8 (ou /hls/<path>/index.m3u8 si tu as mis un prefix nginx)
+  const HLS_URL = `/${STREAM_PATH}/index.m3u8`;
+
+  // === DOM ===
+  const video = document.getElementById('mainPlayer');
+  const statusEl = document.getElementById('streamStatus');
+
+  if (!video) {
+    console.warn('[live-player] #mainPlayer not found');
+    return;
+  }
+
+  video.autoplay = true;
+  video.muted = true;       // requis souvent pour autoplay
+  video.controls = true;
+  video.playsInline = true;
+
+  function setStatus(txt) {
+    if (statusEl) statusEl.textContent = txt;
+  }
+
+  function log(...args) {
+    console.log('[live-player]', ...args);
+  }
+
+  function warn(...args) {
+    console.warn('[live-player]', ...args);
+  }
+
+  function err(...args) {
+    console.error('[live-player]', ...args);
+  }
+
+  let pc = null;
+  let hls = null;
+  let mode = null;
+  const remoteStream = new MediaStream();
+
+  function stopPlayback() {
+    log('Stopping playback. mode=', mode);
+
+    if (hls) {
+      try { hls.destroy(); } catch (e) {}
+      hls = null;
+    }
+
+    if (pc) {
+      try { pc.close(); } catch (e) {}
+      pc = null;
+    }
+
+    try {
+      remoteStream.getTracks().forEach((t) => {
+        remoteStream.removeTrack(t);
+        try { t.stop(); } catch (e) {}
+      });
+    } catch (e) {}
+
+    try {
+      if (video.srcObject && video.srcObject.getTracks) {
+        video.srcObject.getTracks().forEach((t) => {
+          try { t.stop(); } catch (e) {}
+        });
+      }
+    } catch (e) {}
+
+    video.pause();
+    video.srcObject = null;
+    video.removeAttribute('src');
+    video.load();
+
+    mode = null;
+  }
+
+  // --- HLS fallback ---
+  async function ensureHlsJs() {
+    if (window.Hls) return;
+
+    await new Promise((resolve, reject) => {
+      const existing = document.querySelector('script[src="/public/js/hls.min.js"]');
+      if (existing) {
+        existing.addEventListener('load', resolve, { once: true });
+        existing.addEventListener('error', () => reject(new Error('hls.min.js load failed')), { once: true });
+        return;
+      }
+
+      const s = document.createElement('script');
+      s.src = '/public/js/hls.min.js';
+      s.async = true;
+      s.onload = resolve;
+      s.onerror = () => reject(new Error('hls.min.js load failed'));
+      document.head.appendChild(s);
+    });
+  }
+
+  async function startHls() {
+    setStatus('Trying live (HLS)...');
+    await ensureHlsJs();
+
+    // hls.js
+    if (window.Hls && window.Hls.isSupported && window.Hls.isSupported()) {
+      hls = new window.Hls({ lowLatencyMode: true, enableWorker: true });
+      hls.on(window.Hls.Events.ERROR, function (_evt, data) {
+        warn('hls.js error', data);
+      });
+
+      hls.loadSource(HLS_URL);
+      hls.attachMedia(video);
+
+      try { await video.play(); } catch (e) {}
+      mode = 'HLS';
+      setStatus('Live (HLS)');
+      log('HLS active:', HLS_URL);
+      return true;
+    }
+
+    // Safari native
+    if (video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = HLS_URL;
+      try { await video.play(); } catch (e) {}
+      mode = 'HLS';
+      setStatus('Live (HLS)');
+      log('HLS native active:', HLS_URL);
+      return true;
+    }
+
+    setStatus('Live unavailable (HLS not supported)');
+    return false;
+  }
+
+  // --- WHEP ---
+  function waitIceGatheringComplete(peer) {
+    if (peer.iceGatheringState === 'complete') return Promise.resolve();
+
+    return new Promise((resolve) => {
+      const onState = () => {
+        if (peer.iceGatheringState === 'complete') {
+          peer.removeEventListener('icegatheringstatechange', onState);
+          resolve();
+        }
+      };
+      peer.addEventListener('icegatheringstatechange', onState);
+      // sécurité: au cas où ça passe complete sans event
+      setTimeout(resolve, 2000);
+    });
+  }
+
+  function parseIceServersFromLinkHeaders(linkHeaderValues) {
+    // linkHeaderValues: array de strings (ou une string) du header Link
+    // Format typique:
+    // <turn:turn.saheltrigger.net:3478?transport=udp>; rel="ice-server"; username="u"; credential="p"; credential-type="password"
+    const values = Array.isArray(linkHeaderValues) ? linkHeaderValues : (linkHeaderValues ? [linkHeaderValues] : []);
+    const servers = [];
+
+    for (const v of values) {
+      // Il peut y avoir plusieurs Link séparés par virgule, mais attention aux virgules dans les URL:
+      // On fait simple: split sur ', <' en conservant le '<'
+      const parts = v.split(/,\s*(?=<)/g);
+
+      for (const p of parts) {
+        const mUrl = p.match(/<([^>]+)>/);
+        const mRel = p.match(/rel="ice-server"/);
+        if (!mUrl || !mRel) continue;
+
+        const urls = mUrl[1];
+
+        const mUser = p.match(/username="([^"]*)"/);
+        const mCred = p.match(/credential="([^"]*)"/);
+
+        const ice = { urls };
+        if (mUser) ice.username = mUser[1];
+        if (mCred) ice.credential = mCred[1];
+
+        servers.push(ice);
+      }
+    }
+
+    return servers;
+  }
+
+  async function getIceServersViaOptions(url) {
+    // WHEP: OPTIONS peut renvoyer des ICE servers via header Link
+    const res = await fetch(url, { method: 'OPTIONS' });
+    // MediaMTX peut répondre 404 si path inexistant / pas de stream
+    if (!res.ok) {
+      const body = await res.text().catch(() => '');
+      throw new Error(`WHEP OPTIONS failed: ${res.status} ${body}`);
+    }
+
+    // Certains navigateurs donnent res.headers.get('Link') (string unique)
+    const link = res.headers.get('Link');
+    if (!link) return [];
+
+    return parseIceServersFromLinkHeaders(link);
+  }
+
+  async function startWhep() {
+    setStatus('Trying live (WHEP)...');
+    log('WHEP URL:', WHEP_URL);
+
+    // récup ICE servers (TURN/STUN) fournis par MediaMTX (si configuré)
+    let iceServers = [];
+    try {
+      iceServers = await getIceServersViaOptions(WHEP_URL);
+      log('ICE servers from OPTIONS:', iceServers);
+    } catch (e) {
+      // si OPTIONS échoue, on continue quand même: ça peut marcher en host/srflx
+      warn('OPTIONS ice-server failed:', e.message);
+    }
+
+    pc = new RTCPeerConnection({
+      bundlePolicy: 'max-bundle',
+      iceServers: iceServers
+    });
+
+    pc.addEventListener('iceconnectionstatechange', () => log('iceConnectionState:', pc.iceConnectionState));
+    pc.addEventListener('connectionstatechange', () => log('connectionState:', pc.connectionState));
+    pc.addEventListener('icegatheringstatechange', () => log('iceGatheringState:', pc.iceGatheringState));
+
+    pc.addTransceiver('video', { direction: 'recvonly' });
+    pc.addTransceiver('audio', { direction: 'recvonly' });
+
+    pc.ontrack = (event) => {
+      const stream = (event.streams && event.streams[0]) ? event.streams[0] : null;
+      if (stream) {
+        video.srcObject = stream;
+      } else {
+        remoteStream.addTrack(event.track);
+        video.srcObject = remoteStream;
+      }
+
+      // autoplay policies
+      video.muted = true;
+      video.playsInline = true;
+
+      video.play().then(() => {
+        log('video.play() ok');
+      }).catch((e) => {
+        warn('video.play() blocked:', e);
+      });
+
+      log('track received:', event.track && event.track.kind);
+    };
+
+    const offer = await pc.createOffer();
+    await pc.setLocalDescription(offer);
+
+    // Important: on attend ICE complete pour envoyer un SDP avec candidats (sans trickle)
+    await waitIceGatheringComplete(pc);
+
+    if (!pc.localDescription || !pc.localDescription.sdp) {
+      throw new Error('Missing local SDP');
+    }
+
+    const res = await fetch(WHEP_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/sdp',
+        'Accept': 'application/sdp'
+      },
+      body: pc.localDescription.sdp
+    });
+
+    if (!res.ok) {
+      const body = await res.text().catch(() => '');
+      throw new Error(`WHEP POST failed: ${res.status} ${body}`);
+    }
+
+    const answerSdp = await res.text();
+    await pc.setRemoteDescription({ type: 'answer', sdp: answerSdp });
+
+    mode = 'WHEP';
+    setStatus('Live (WHEP)');
+    log('WHEP active');
+    return true;
+  }
+
+  async function startAuto() {
+    stopPlayback();
+
+    try {
+      await startWhep();
+    } catch (e) {
+      err('WHEP failed => fallback HLS:', e);
+      setStatus('WHEP failed, trying HLS...');
+      await startHls();
+    }
+  }
+
+  window.livePlayerStop = stopPlayback;
+  window.addEventListener('beforeunload', stopPlayback);
+
+  startAuto().catch((e) => {
+    err('Playback startup failed:', e);
+    setStatus('Live unavailable');
+  });
+})();

@@ -1,0 +1,468 @@
+{
+  "generatedAt": "2026-03-17T13:53:25Z",
+  "validUntil": "2026-03-24T13:53:25Z",
+  "archives": [
+    {
+      "id": "sahel-trigger-2026-03-17-134303",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:43:03Z",
+      "durationSeconds": 89.621,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-134303/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-134303/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135325Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7633506f9242d09bbe508ce9042d23e5027dd37f8abee296f967152e01b51cb5",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135325Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=91a6656e93774532a95a7c9f5ea2fa09a72edec02622dff179be010d07ad0139",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135325Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8f55b88fe961f761908f140502b152bf127595de6187247113dd7283df0785c4",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-134303/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135325Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f142d5bd4de243d68c33152cdf88ee0de5463d39c3660e31b0f95b6f2de21358"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-133928",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:39:28Z",
+      "durationSeconds": 29.418,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-133928/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133928/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135325Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f2148e17a56176ce44ca52c59a5884eace1f9e1f7aa0322edc95f297d4ffd645",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c949940ea0362565b3b58bdfe2b87799dc041c284d69916fbaf4dab4c86e61c0",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=0609e398589217c8cab573977585b1d61ca5c645fa1db16e1c0b33d6cc30aa17",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133928/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c038cbd62636ece5722cca428553ff4ea471dbb6234c43b6e055251020699905"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-133656",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:36:56Z",
+      "durationSeconds": 107.69,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-133656/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133656/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ed8dbf9c6d0ea5f667aef5b041cae7703129bc628d2f3144731cca9578afcfc9",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135326Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6d7633572f5781050effd574e40737ef52d185cf3d4b82a37d309845e4c30b98",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ad1fc84ec6289929f2b546169f6083613776629ea84b9518ca8939478caa5006",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-133656/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=413eff1d2c47ab7a83e2d7fe358efe52d79007cbbaec644e742d7e9badb12c12"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-132859",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:28:59Z",
+      "durationSeconds": 23.658,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-132859/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-132859/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ca12aa0568a416640c90e5388e09be7fa89caeebc8bdbed6e56c3a721d5da981",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=244b8d96b79e5b3e422768ab583a1bb2bdba82585bea32adb9a2a09aa18b374b",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=bd4e247b05c708a72725cf3f439ebacdced4040cff5f1d66c5dea0db298c90f5",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-132859/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6d1e4048aed4fbfeea9559937b38e6fef8a1cce2229ec7d3892844a967070fd1"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-131314",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:13:14Z",
+      "durationSeconds": 3.754,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-131314/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-131314/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=96ee50b3413386f8f8b3e3e1f669456b532031191358caca5b4ad111cb92eebc",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135327Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b606618150e7f2efdd2aa23b76cee2ff52d841a991ca9529bd45e1e9d39957a3",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135328Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b362bcae33dcdb7cddd8c7795e4e7b98f75a1031e3e8ef9d0e4836ef0a02b245",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-131314/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135328Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7cc71918bc561e75d4af64df501d963902687d7e9ffdc88004be3453339a5615"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-130926",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:09:26Z",
+      "durationSeconds": 21.759,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-130926/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130926/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135328Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=4a3b173a294c9fdf8564efc196e39a78acf3eefca6c5b0842642edd9dc366dc5",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135328Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7efcad6a101bd7102332fb7226cc161108206936c954d81c999335c4a682defc",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135328Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f2542acabff8bdd30c548f44d609ea5d8c8538a0893f329ef73ee7ca043f2b72",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130926/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=34edca02106331f9e02c87b20eae4036534b680fd5896c42c716b3eceaae4c2c"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-17-130152",
+      "title": "Sahel Trigger 2026-03-17",
+      "dateISO": "2026-03-17T13:01:52Z",
+      "durationSeconds": 233.919,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-17-130152/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130152/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f7d3b4fe72873b113a672fd03e667571551a4657788eb8b74ff28fd20fa2da29",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ae5f5f1334adeae6ba53c8ce6a596eb8ac3e7b2b2374d14e231adee2d9b7cfce",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5f1b1b1a89f8804662884604b3ed739308cbd2fcb02d38bf6de3c851357e0459",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-17-130152/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=17bc94682854a541dd8bedf3a846684115bd8fac8a079150fe704eb65ba54556"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-16-191855",
+      "title": "Sahel Trigger 2026-03-16",
+      "dateISO": "2026-03-16T19:18:55Z",
+      "durationSeconds": 20.266,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-16-191855/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-16-191855/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=38b5fab0b623d5ddbd4bdd9cf3cafa26b01c328abfe146fdc8b673cd4884eac3",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9455805378fdd1a38910bca4289718b0314fceea9e795c84004c0c7d7b804b6c",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135329Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6eaeed2e4ce113ea9ae2e125e6d627315023a8a8257054cca2ef87f8cb096dc4",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-16-191855/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=010eec8e637a47247fb42c4316b675634c6672d8909322d27472b7ee3a1916f8"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-16-170753",
+      "title": "Sahel Trigger 2026-03-16",
+      "dateISO": "2026-03-16T17:07:53Z",
+      "durationSeconds": 5775.854,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-16-170753/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-16-170753/subtitles.fr.vtt",
+          "en": null,
+          "es": null
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-16-170753/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9ca7b03c92ec8ca923644ac6884905e7981ff6cc723e385be4b765b08aeb26e4",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-16-170753/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7c77dd8010e23cc8895d379a69369fd7cdac5855e8b9ac966b309a1841683908",
+        "en": null,
+        "es": null
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-09-143504",
+      "title": "Sahel Trigger 2026-03-09",
+      "dateISO": "2026-03-09T14:35:04Z",
+      "durationSeconds": 639.103,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-09-143504/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-09-143504/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=1282f37e6edc2032835baee3fa0716528ec9a5a61278b469e37aa2fd656df16b",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a2956d10312385e88f6fbd34ccbf87916575fe4f0db10cb9ac4fb4690a2858b6",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=1a20f05bc3da91b44e6801213592ca28e45eeac6bb359d269a1dec2d8021a3a8",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-09-143504/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5522cfa36e2c30359be9f4346a76cd64669353d60a1cb5757d24b736057d2c21"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-022008",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T02:20:08Z",
+      "durationSeconds": 33.044,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-08-022008/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-08-022008/subtitles.fr.vtt",
+          "en": null,
+          "es": null
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-022008/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=d24d79abb53dcad5f9d9ac36b9486995811d09f1ee774668b489288f174d3606",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-022008/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=75b1131d050c3d383060658802dc4948ac1e60fded5d2aeb4d1248b2fca5595f",
+        "en": null,
+        "es": null
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-013025",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T01:30:25Z",
+      "durationSeconds": 28.628,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-08-013025/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-013025/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135330Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=89092ab3aa3deacc4aa4fa1eda839388d4eb0f8ac64dc4ff3ccac4a505d7cb80",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=e403d353822f5db215080d7814b157ada3ef63f5e056813d9f710a50415be3f2",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=4d37ed5447576075a4748f7011f43667caa968bfd8256b6636bba4e2192c4fcb",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-013025/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a845939a91eea9c990f2e9793f29a78d04e18f6b9e61bc7fff49ea210630f965"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-011024",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T01:10:24Z",
+      "durationSeconds": 106.538,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-08-011024/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-011024/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=1abc6c1bef44c6cd4e800d97a781d9c86544230495ea52aa929285c8befe141e",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=3c4fd2479ba6b499806a417541635cee91b930d5e461a7cb54eb2c4ecbe2b07e",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=3b9f08a9efeb1415f9508f94c319571f048fbbeff2f84209118cb9db191a6cef",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-011024/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=96f16cad2db3de601ef5cc7ff0dc629672b3024acfe3628836adf45656aeae4e"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-08-001606",
+      "title": "Sahel Trigger 2026-03-08",
+      "dateISO": "2026-03-08T00:16:06Z",
+      "durationSeconds": 126.122,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-001606/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=89dd1a9e41b21918d4512ae7e7e30ff89b349575a39aa26b60b809ab29b389ae",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135331Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=066e3816f53095686dc4af06e8d3eef84451f568fdcf51085df79c364f0b9d15",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=413d6241f8e57f85e3145c35473ba0f3f84ed2e09485561ca269328c9488c97d",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=bc85f07ad458474594878d3457a56764e75e2e58ef649af56b80880693a4acca"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-201640",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T20:16:40Z",
+      "durationSeconds": 109.46,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-07-201640/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-07-201640/subtitles.fr.vtt",
+          "en": null,
+          "es": "archives/2026/03/sahel-trigger-2026-03-07-201640/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-201640/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6fbe25210e9b9987c367be79bd3c8183d9dc2970d101a7bcbcc183619b140a26",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-201640/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8fa17ae56de7e6ec6be548aa1fe23c099c7e28044f97c53804a0c0e3d5a1c4b8",
+        "en": null,
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-201640/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8d71ce736371052c154a1397031c8719d4739cbd5f05331def5fee6bc478e98e"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-192520",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T19:25:20Z",
+      "durationSeconds": 100.587,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-07-192520/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-192520/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=36a1aad40ee1e5c95dd915d2fa177c16087f916d0c52f6337c5260c83539aaf2",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f5847cdeb7ba1cd559875c1ff80627b8a37e5dcb06bd429b50f0bbe6f4be3b13",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=42ea6e218a4d4f9086dac651b1feb29037c2f8b301eb0dfedc67be2c689d3f0e",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-192520/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135332Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=704b5a8aafb3ee81ca0cc1ca899b79d3f386dcc3ae94b1d443df7b7ad8871a89"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-185613",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T18:56:13Z",
+      "durationSeconds": 100.522,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-07-185613/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-185613/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=dc19a23a849e6cdacb95e9f624167c4e008874961142b8486a168ba40c3116de",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9d9ca4529aa87cf6dfd1bc0098df24d54b9a4c0228662b6688acedb29d0e985d",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=521e3480848e260789603b912f950b418e302d37504611385cf38d7e2ca9179e",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-185613/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=1f7e644b4fa665f4a57d495ea5deb762309fd02f889e7721774e59689f3aa62c"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-175659",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T17:56:59Z",
+      "durationSeconds": 109.738,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-07-175659/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-175659/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7f25dbc7dc81b46e0f6ed9b4f71475d073a6e50f7fce52e632864641b4aa11f7",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a7702082a28377eaf294b4dfb5bcfd4e00e79a73548744888c57d5f225122d5d",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=44e7adc4b8770faf62c122618f148c29b4ad297d102c20ec518021fc42d03464",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-175659/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f95ce2ef2f4072b4095e0eeaaf5f03ed75ff97cf2d7be211880fa994edde5407"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-174459",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T17:44:59Z",
+      "durationSeconds": 113.322,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-07-174459/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-174459/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135333Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=d0e5ff3ee89767f56c4d4cfc07c3101ea1f560aadad424ec2c40ce06b1645675",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=2f3c0674c7145c48577f44dd4641c402cbf24d2e313e88690ae9fce01a6a094c",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=42d49817231b24105d70a0856de685346d2b581bb62d7cfe0a6fb060b61e6540",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-174459/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=1e8da140693c4d70ba8161cbdc94760e4d7142d01e24fa74ba7a368313ae990b"
+      }
+    },
+    {
+      "id": "sahel-trigger-2026-03-07-172909",
+      "title": "Sahel Trigger 2026-03-07",
+      "dateISO": "2026-03-07T17:29:09Z",
+      "durationSeconds": 45.954,
+      "object": {
+        "video_key": "archives/2026/03/sahel-trigger-2026-03-07-172909/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.fr.vtt",
+          "en": "archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.en.vtt",
+          "es": "archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-172909/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=65457cd64211ffddddf8bb72f20653a4eb0c8b07d05c8e933dc295bbad431e4e",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9fe8103f78f9c9b0322cb244945a098749fb2bbfc01e5b99f24a9d8e7ab831d6",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=dad6448a53cce663f0de7efc5d6c9d509fe7f7633073fcf7e69f50657e807074",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/sahel-trigger-2026-03-07-172909/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=028ce01ca8ee0a49ff6a819da6273df88289fa669f899236b569135903939bde"
+      }
+    },
+    {
+      "id": "saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z",
+      "title": "saheltrigger/2026-03-04_18-57-37-907701-retry2.mp4",
+      "dateISO": "2026-03-04T19:09:58Z",
+      "durationSeconds": 83.254,
+      "object": {
+        "video_key": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.fr.vtt",
+          "en": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.en.vtt",
+          "es": "archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135334Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ce92ed76934f0e8039263f061af3ec06186d73404856be6bd0fd4c8d67b97b19",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=bbf2dfc4e04598f6593578e5d7ed0b0908bf3bc5bc9efa61ff5bbeb18fc88806",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5b5e0234d0788adc0ec029e13e70b9de61cf1059cf37666a0451028d991b2b28",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-2026-03-04_18-57-37-907701-retry2.mp4-20260304T190958Z/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=40f68a2fee2a77dac02ec0efa1fd06d53c9252bcac8b779fa117820daaed5a21"
+      }
+    },
+    {
+      "id": "saheltrigger-main-20260302T193305Z",
+      "title": "saheltrigger/main",
+      "dateISO": "2026-03-02T19:33:05Z",
+      "durationSeconds": 4.0,
+      "object": {
+        "video_key": "archives/2026/03/saheltrigger-main-20260302T193305Z/video.mp4",
+        "subs": {
+          "fr": "archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.fr.vtt",
+          "en": "archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.en.vtt",
+          "es": "archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.es.vtt"
+        }
+      },
+      "signedUrl": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-main-20260302T193305Z/video.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=4ab6efd0cdc3fed6d3b43978dd343c3acfe40a1d24e2c1729893835b4fff9d03",
+      "status": "ok",
+      "subtitleSignedUrls": {
+        "fr": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.fr.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=148586e869a1d2dca037b51c5266929c49968b608f098f4240f5a465559c458b",
+        "en": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.en.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9f0d52ea085bcd32ba551865c0d0ea8d1d0f6f80a7208ded8aa86dda54c59eea",
+        "es": "https://s3.fr-par.scw.cloud/saheltrigger/archives/2026/03/saheltrigger-main-20260302T193305Z/subtitles.es.vtt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW6BCH4M1DT3C9FC4BT%2F20260317%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20260317T135335Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=cb8ee1ce5516151e278845d8ad2ddec32823b5648fb1978f8fb23cce7af972d5"
+      }
+    }
+  ]
+}

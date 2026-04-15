@@ -1,0 +1,20 @@
+{
+  "id": "sahel-trigger-2026-03-08-001606",
+  "title": "Sahel Trigger 2026-03-08",
+  "dateISO": "2026-03-08T00:16:06Z",
+  "durationSeconds": 126.122,
+  "object": {
+    "video_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/video.mp4",
+    "subs": {
+      "fr": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.fr.vtt",
+      "en": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.en.vtt",
+      "es": "archives/2026/03/sahel-trigger-2026-03-08-001606/subtitles.es.vtt"
+    },
+    "meta_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/metadata.json",
+    "transcript_raw_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/transcript_raw.json",
+    "transcript_verbose_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/transcript_verbose.json",
+    "transcript_text_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/transcript.txt",
+    "translated_segments_key": "archives/2026/03/sahel-trigger-2026-03-08-001606/translated_segments.json",
+    "extracted_audio_key": ""
+  }
+}

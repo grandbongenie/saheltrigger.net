@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saheltrigger Lives</title>
+  <style>
+    :root { --bg:#0f172a; --fg:#e2e8f0; --accent:#22c55e; --panel:#111827; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background:linear-gradient(180deg,#0b1220,#0f172a); color:var(--fg); }
+    main { max-width:1000px; margin:0 auto; padding:24px; }
+    h1 { margin:0 0 8px; }
+    .panel { background:var(--panel); border:1px solid #334155; border-radius:12px; padding:16px; margin-bottom:16px; }
+    video, iframe { width:100%; border-radius:10px; background:#000; min-height:320px; }
+    a { color:#7dd3fc; }
+    ul { padding-left:16px; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body>
+  <main>
+    <h1>Saheltrigger Live</h1>
+    <p>Primary playback: WebRTC. Fallback: HLS replay/live playlist.</p>
+
+    <section class="panel">
+      <h2>WebRTC (Low Latency)</h2>
+      <iframe src="/webrtc/live/saheltrigger/main/" allow="autoplay; fullscreen"></iframe>
+    </section>
+
+    <section class="panel">
+      <h2>HLS Fallback</h2>
+      <video id="hls" controls playsinline></video>
+      <script>
+        const hlsUrl = '/hls/live/saheltrigger/main/index.m3u8';
+        const video = document.getElementById('hls');
+        if (window.Hls && Hls.isSupported()) {
+          const hls = new Hls({ lowLatencyMode: true });
+          hls.loadSource(hlsUrl);
+          hls.attachMedia(video);
+        } else {
+          video.src = hlsUrl;
+        }
+      </script>
+    </section>
+
+    <section class="panel">
+      <h2>Public Replays (12h)</h2>
+      <ul id="replays"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>Private Archives (mTLS required)</h2>
+      <p><a href="/archives/index.json">Open archive index (requires valid client certificate)</a></p>
+    </section>
+  </main>
+  <script>
+    fetch('/state/replays.json', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : [])
+      .then(items => {
+        const ul = document.getElementById('replays');
+        if (!items.length) {
+          ul.innerHTML = '<li>No replay currently published.</li>';
+          return;
+        }
+        ul.innerHTML = items.map(item =>
+          `<li><strong>${item.project}/${item.stream_key}</strong> - <a href="${item.public_mp4}">video</a> - <a href="${item.public_vtt}">subtitles</a> - expires ${item.expires_at}</li>`
+        ).join('');
+      })
+      .catch(() => {
+        document.getElementById('replays').innerHTML = '<li>Replay index unavailable.</li>';
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SahelTrigger</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="grid">
+    <div class="logo" aria-label="Sahel Trigger brand">
+      <a class="brand" href="index.html" aria-label="Go to home">
+        <img src="LOGO_SAHEL_TRIGGER.png" alt="Sahel Trigger" />
+      </a>
+    </div>
+
+    <div class="hero-orb" aria-hidden="true">
+      <div class="orb-text" data-text="welcome on saheltrigger.net, this website tend to document the activity addended to the utopia of reforesting the sahel/sahara region for the purpose of life."></div>
+    </div>
+
+    <div class="nav-band">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-logo" href="index.html" aria-label="Sahel Trigger home">
+          <img src="LOGO_SAHEL_TRIGGER.png" alt="Sahel Trigger logo" />
+        </a>
+        <a href="reforestation.html">Reforestation</a>
+        <a href="live.html">Live</a>
+        <a href="report.html">Report</a>
+      </nav>
+    </div>
+
+    <aside class="newsletter-box" aria-label="Newsletter subscription">
+      <h2>Newsletter</h2>
+      <form
+        class="newsletter-form"
+        novalidate
+        method="POST"
+        action="https://360af059.sibforms.com/serve/MUIFANZ2L1xdY0UyqNC9VviSk1CKYTTxRRP8eMyAWk-C8E7XSNOwyiBtsUCWTUDQS-wB4GYwSDeCeDwXzGZi9ee2lGyEwiEOSaAanF69xBMdNRyByLzLiOsQklmvaWYj11tYVUUoijlJtCWBcWVljYPLJRg8aeHKCQaafTtvrUc6j2f_QGRbzLWWNqPvCiU4nglflbgonVN6HHcuFw=="
+      >
+        <label for="newsletter-email">Email</label>
+        <div class="newsletter-row">
+          <input
+            id="newsletter-email"
+            name="EMAIL"
+            type="email"
+            autocomplete="email"
+            placeholder="you@example.com"
+            required
+          />
+          <input type="hidden" name="email_address_check" value="" />
+          <button type="submit">Join</button>
+        </div>
+        <p class="newsletter-status" role="status" aria-live="polite"></p>
+      </form>
+    </aside>
+  </main>
+
+  <script>
+    (function () {
+      const logo = document.querySelector(".logo");
+      const heroOrb = document.querySelector(".hero-orb");
+      const orbText = document.querySelector(".orb-text");
+      const newsletterForm = document.querySelector(".newsletter-form");
+      const newsletterEmail = document.querySelector("#newsletter-email");
+      const newsletterStatus = document.querySelector(".newsletter-status");
+      const newsletterButton = newsletterForm ? newsletterForm.querySelector('button[type="submit"]') : null;
+      if (!logo || !heroOrb || !orbText) return;
+      const BREVO_ENDPOINT = "https://360af059.sibforms.com/serve/MUIFANZ2L1xdY0UyqNC9VviSk1CKYTTxRRP8eMyAWk-C8E7XSNOwyiBtsUCWTUDQS-wB4GYwSDeCeDwXzGZi9ee2lGyEwiEOSaAanF69xBMdNRyByLzLiOsQklmvaWYj11tYVUUoijlJtCWBcWVljYPLJRg8aeHKCQaafTtvrUc6j2f_QGRbzLWWNqPvCiU4nglflbgonVN6HHcuFw==";
+
+      const fullText = orbText.dataset.text || "";
+      const typingSpeed = 112;
+      let timer = null;
+      let isPinned = false;
+
+      function reset() {
+        if (isPinned) return;
+        if (timer) clearInterval(timer);
+        timer = null;
+        orbText.textContent = "";
+        orbText.classList.remove("is-typing");
+      }
+
+      function type() {
+        if (isPinned) return;
+        reset();
+        orbText.classList.add("is-typing");
+        let i = 0;
+        timer = setInterval(() => {
+          orbText.textContent = fullText.slice(0, i);
+          i += 1;
+          if (i > fullText.length) {
+            clearInterval(timer);
+            timer = null;
+            orbText.classList.remove("is-typing");
+            isPinned = true;
+            document.body.classList.add("orb-active");
+          }
+        }, typingSpeed);
+      }
+
+      function pinAndType(event) {
+        if (event) event.preventDefault();
+        if (isPinned) return;
+        document.body.classList.add("orb-active");
+        type();
+      }
+
+      window.setTimeout(() => {
+        pinAndType();
+      }, 2000);
+
+      logo.addEventListener("click", pinAndType);
+      heroOrb.addEventListener("click", pinAndType);
+
+      if (newsletterForm && newsletterEmail && newsletterStatus) {
+        newsletterForm.addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const email = newsletterEmail.value.trim();
+
+          if (!newsletterEmail.checkValidity()) {
+            newsletterStatus.textContent = "Please enter a valid email address.";
+            return;
+          }
+
+          if (newsletterButton) newsletterButton.disabled = true;
+          newsletterStatus.textContent = "Submitting...";
+
+          try {
+            const payload = new URLSearchParams();
+            payload.set("EMAIL", email);
+            payload.set("email_address_check", "");
+
+            await fetch(BREVO_ENDPOINT, {
+              method: "POST",
+              mode: "no-cors",
+              headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+              },
+              body: payload.toString(),
+            });
+            newsletterStatus.textContent = "Thanks, check your inbox to confirm.";
+            newsletterForm.reset();
+          } catch (error) {
+            newsletterStatus.textContent = "Submission failed. Please try again.";
+          } finally {
+            if (newsletterButton) newsletterButton.disabled = false;
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
