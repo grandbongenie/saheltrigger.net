@@ -1,0 +1,10 @@
+# Working folder copied from the PC (backups, logs): not part of the site
+Update20261108/
+# Live performance data, uploaded every ~10 min by export-perf.ps1 (user stperf)
+perf-data/
+# Old fallback copy of the data
+/perf.json
+# Backups
+*.bak
+*.bak.*
+*.bak-*

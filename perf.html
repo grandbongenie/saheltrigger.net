@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perf | Sahel Trigger</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="perf.css?v=15" />
+</head>
+<body>
+  <div class="nav-band">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-logo" href="index.html" aria-label="Sahel Trigger home">
+        <img src="LOGO_SAHEL_TRIGGER.png" alt="Sahel Trigger logo" />
+      </a>
+      <a href="reforestation.html">Reforestation</a>
+      <a class="active" href="perf.html">Perf</a>
+      <a href="report.html">Report</a>
+    </nav>
+  </div>
+
+  <main class="page perf">
+    <section class="perf-head hero">
+      <h1>Performance - Sahel Trigger Research Project</h1>
+      <p id="perfStatus" class="status">Loading…</p>
+    </section>
+
+    <section class="perf-panel">
+      <h2>Daily history</h2>
+      <div class="chart-legend" id="chartLegend"></div>
+      <div class="chart-wrap" id="chart" role="img" aria-label="Performance history chart"></div>
+    </section>
+
+    <div id="groups"></div>
+
+    <p class="perf-disclaimer">
+      Sahel Trigger Performance: Figures are shown as percentages and updated automatically about every 10 minutes
+      during market hours (Monday to Friday). Past performance does not predict future results. Nothing on this page is investment advice.
+    </p>
+  </main>
+
+  <script src="perf.js?v=5" defer></script>
+</body>
+</html>

@@ -717,7 +717,7 @@
     const okLive = await startLiveMode();
     if (okLive) return;
 
-    setStatus('Offline. Archives available below.');
+    setStatus('Live unavailable. No replay or archive is published on this page.');
     stopLiveStacks();
     player.pause();
     player.srcObject = null;

@@ -270,6 +270,11 @@ code {
 }
 
 @media (max-width: 860px) {
+  body {
+    padding-top: calc(66px + 2rem);
+    line-height: 1.45;
+  }
+
   .top {
     flex-direction: column;
     align-items: flex-start;
@@ -277,6 +282,13 @@ code {
 
   .page {
     width: min(96vw, 520px);
+  }
+
+  .status,
+  label,
+  select,
+  button {
+    font-size: 14px;
   }
 
   .video-frame {
@@ -297,6 +309,11 @@ code {
     object-fit: contain;
   }
 
+  .video-caption {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+
   .nav-band {
     top: max(10px, env(safe-area-inset-top));
     left: 10px;
@@ -307,20 +324,27 @@ code {
   }
 
   .nav {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
     padding: 8px;
     width: 100%;
     height: auto;
+    align-items: center;
   }
 
   .nav a {
-    font-size: clamp(12px, 3vw, 15px);
-    line-height: 1.1;
-    padding: 8px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(12px, 3vw, 14px);
+    line-height: 1.15;
+    min-height: 52px;
+    padding: 8px 6px;
     text-align: center;
-    white-space: nowrap;
+    white-space: normal;
+    border-radius: 12px;
+    flex: 1 1 0;
   }
 
   .nav a:first-child,
@@ -329,9 +353,34 @@ code {
     margin-right: 0;
   }
 
-  .nav-logo {
+  .nav a:hover {
+    transform: none;
+  }
+
+  .nav .nav-logo {
+    width: 25%;
+    height: auto;
+    margin-left: 0;
+    padding: 8px 6px;
+    border-radius: 12px;
+    flex: 1 1 0;
+  }
+
+  .nav .nav-logo:first-child {
     margin-left: 0;
   }
+
+  .nav .nav-logo img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .nav a.active,
+  .nav .nav-logo:active,
+  .nav a:active {
+    background: rgba(11, 142, 54, 0.12);
+  }
+
 }
 
 @media (max-width: 1024px) and (orientation: landscape) {
@@ -347,15 +396,35 @@ code {
   }
 
   .nav {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
     padding: 6px 8px;
   }
 
   .nav a {
     font-size: 11px;
     letter-spacing: 0.01em;
+    min-height: 44px;
     padding: 6px 4px;
+    border-radius: 10px;
+  }
+
+  .nav .nav-logo {
+    width: 25%;
+    height: auto;
+    margin-left: 0;
+    padding: 6px 4px;
+    flex: 1 1 0;
+  }
+
+  .nav .nav-logo:first-child {
+    margin-left: 0;
+  }
+
+  .nav .nav-logo img {
+    width: 28px;
+    height: 28px;
   }
 
   .page {
@@ -416,13 +485,19 @@ code {
   }
 
   .nav {
-    gap: 6px;
+    gap: 0;
     padding: 5px 6px;
   }
 
   .nav a {
     font-size: 10px;
+    min-height: 40px;
     padding: 5px 3px;
+  }
+
+  .nav .nav-logo img {
+    width: 24px;
+    height: 24px;
   }
 
   .page {

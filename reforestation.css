@@ -1,4 +1,10 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&display=swap');
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('/Baloo2-Bold.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --green: #0b8e36;
@@ -23,6 +29,7 @@ body {
   background: var(--blue);
   color: var(--light);
   padding-top: calc(var(--band-center-y) + (var(--band-height) / 2) + 24px);
+  overflow-x: hidden; /* as on report/perf: nothing can widen the page and shrink the nav on mobile */
 }
 
 .top {
@@ -280,6 +287,56 @@ body {
 }
 
 @media (max-width: 860px) {
+  body {
+    padding-top: calc(66px + 2rem);
+    line-height: 1.5;
+  }
+
+  .story {
+    width: min(96vw, 560px);
+    gap: 16px;
+  }
+
+  .hero-text h1,
+  .timeline h2,
+  .finale h2 {
+    font-size: clamp(26px, 7vw, 34px);
+    line-height: 1.08;
+  }
+
+  .card h3,
+  .hero-panel h2 {
+    font-size: 22px;
+    line-height: 1.15;
+  }
+
+  .lead,
+  .hero-panel p,
+  .card,
+  .timeline,
+  .finale,
+  .step,
+  .chips span {
+    font-size: 15px;
+  }
+
+  .lead,
+  .hero-panel p,
+  .card p,
+  .card li,
+  .finale p,
+  .step .detail {
+    line-height: 1.5;
+  }
+
+  .card,
+  .hero-panel,
+  .timeline,
+  .finale,
+  .impact-card {
+    padding: 14px;
+  }
+
   .hero {
     grid-template-columns: 1fr;
   }
@@ -307,20 +364,27 @@ body {
   }
 
   .nav {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
     padding: 8px;
     width: 100%;
     height: auto;
+    align-items: center;
   }
 
   .nav a {
-    font-size: clamp(12px, 3vw, 15px);
-    line-height: 1.1;
-    padding: 8px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(12px, 3vw, 14px);
+    line-height: 1.15;
+    min-height: 52px;
+    padding: 8px 6px;
     text-align: center;
-    white-space: nowrap;
+    white-space: normal;
+    border-radius: 12px;
+    flex: 1 1 0;
   }
 
   .nav a:first-child,
@@ -329,7 +393,170 @@ body {
     margin-right: 0;
   }
 
-  .nav-logo {
+  .nav a:hover {
+    transform: none;
+  }
+
+  .nav .nav-logo {
+    width: 25%;
+    height: auto;
     margin-left: 0;
+    padding: 8px 6px;
+    border-radius: 12px;
+    flex: 1 1 0;
+  }
+
+  .nav .nav-logo:first-child {
+    margin-left: 0;
+  }
+
+  .nav .nav-logo img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .nav a.active,
+  .nav .nav-logo:active,
+  .nav a:active {
+    background: rgba(11, 142, 54, 0.12);
+  }
+
+}
+
+/* Stop mobile Safari from enlarging text differently from page to page. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* ==== Shared nav ====
+   Identical in styles.css, reforestation.css, report.css and perf.css: keep the four copies in sync.
+   Overrides the older per-page nav rules above so the logo and menu look the same on every page. */
+
+.nav .nav-logo {
+  display: grid;
+  place-items: center;
+  line-height: 0;
+}
+
+.nav .nav-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  border-radius: 0;
+}
+
+/* Words: same look and hover as the home page (blue, lift + slight tilt, no background,
+   no green highlight on the current page). */
+.nav a {
+  font-size: clamp(22.8px, 3.544vw, 35.4px); /* desktop: +12.5% twice vs. 18-28px */
+  line-height: normal;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav a:hover {
+  transform: translateY(-2px) rotate(-1deg);
+  background: transparent;
+}
+
+.nav a.active {
+  color: var(--blue);
+}
+
+/* Desktop: logo moved right by 70% of its 112px width (78.4px). Reset to 0 on mobile below. */
+.nav .nav-logo:first-child {
+  margin-left: calc(3rem + 78.4px);
+}
+
+/* Desktop: the three words move left together by 10% of the screen width. On narrower desktop
+   screens the shift shrinks (33.33vw - 288.67px) so "Reforestation" stays >= 24px from the logo. */
+.nav a:not(.nav-logo) {
+  position: relative;
+  left: calc(-1 * max(0px, min(10vw, 33.333vw - 288.67px)));
+}
+
+/* The logo stays still on hover. */
+.nav .nav-logo:hover,
+.nav .nav-logo:focus {
+  transform: none;
+  background: transparent;
+}
+
+@media (max-width: 860px) {
+  .nav-band {
+    top: max(10px, env(safe-area-inset-top));
+    bottom: auto;
+    left: 10px;
+    right: 10px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28);
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: auto;
+    padding: 8px 4px;
+  }
+
+  /* Nav words 16-20.5px, in step with the page text. Each item takes the width of its word. */
+  .nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    min-height: 60px;
+    margin: 0;
+    padding: 8px 3px;
+    border-radius: 12px;
+    font-size: clamp(16px, 5.24vw, 20.5px);
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .nav a:first-child,
+  .nav a:last-child,
+  .nav .nav-logo:first-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .nav a:hover {
+    transform: none;
+  }
+
+  .nav a:not(.nav-logo) {
+    left: 0;
+  }
+
+  .nav .nav-logo {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    padding: 2px;
+  }
+
+  /* Logo 54px on mobile */
+  .nav .nav-logo img {
+    width: 54px;
+    height: 54px;
+  }
+
+  .nav a.active {
+    background: transparent;
+  }
+
+  /* Tap feedback, as on the home page */
+  .nav a:active {
+    background: rgba(11, 142, 54, 0.12);
   }
 }
