@@ -1,0 +1,93 @@
+/* i18n/i18n.css — FR / EN switch in the white navigation band (all pages).
+   Same design as grandbongenie.fr: two plain buttons, the active one outlined, FR stacked above EN. */
+
+.lang-switch {
+  --lang-text: #263489;                     /* active: brand blue */
+  --lang-text-2: rgba(38, 52, 137, 0.55);   /* inactive: muted blue */
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translate(-160%, -50%); /* moved left by 160% of its own width */
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  z-index: 4;
+}
+
+.lang-switch button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 0.6rem;
+  font-family: "Baloo 2", system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  color: var(--lang-text-2);
+  background: transparent;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.lang-switch button:hover {
+  color: var(--lang-text);
+}
+
+.lang-switch button.active {
+  color: var(--lang-text);
+  border-color: var(--lang-text-2);
+}
+
+.lang-switch button:focus-visible {
+  outline: 2px solid #0b8e36;
+  outline-offset: 2px;
+}
+
+/* Narrow desktops (861-1000 px): the menu reaches the right edge, so the switch stays against it
+   (no shift to the left, which would touch the last menu word). */
+@media (min-width: 861px) and (max-width: 1000px) {
+  .lang-switch {
+    right: 8px;
+    transform: translateY(-50%);
+  }
+}
+
+/* Mobile: the band holds the menu edge to edge, so the switch is a stacked FR / EN pair at its
+   right end (in the flow, the menu words share the remaining width). */
+@media (max-width: 860px) {
+  .nav-band {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-band .nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .lang-switch {
+    position: static;
+    transform: none;
+    flex: 0 0 auto;
+    gap: 2px;
+    margin: 0 6px 0 0;
+  }
+
+  .lang-switch button {
+    min-width: 40px;
+    min-height: 30px;
+    padding: 0 0.4rem;
+    font-size: 0.85rem;
+    border-radius: 8px;
+  }
+
+  /* Slightly smaller menu words so the three words + the switch fit on a phone (360-430 px) */
+  .nav-band .nav a {
+    font-size: clamp(14px, 4.3vw, 18.5px);
+    padding-left: 2px;
+    padding-right: 2px;
+    letter-spacing: 0;
+  }
+}

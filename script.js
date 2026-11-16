@@ -9,7 +9,9 @@
       const newsletterFrame = document.querySelector('iframe[name="newsletter-submit-frame"]');
       if (!logo || !heroOrb || !orbText) return;
 
-      const fullText = (orbText?.getAttribute("data-text") || "").trim();
+      // Texts come from i18n/en.js and i18n/fr.js (the HTML values are the fallback)
+      const T = (key, fallback) => (window.ST_I18N ? window.ST_I18N.t(key) : fallback);
+      let fullText = T("home.orb", (orbText.getAttribute("data-text") || "").trim());
       const typingSpeed = 112;
       let timer = null;
       let isPinned = false;
@@ -65,6 +67,12 @@
         pinAndType();
       }, 1500);
 
+      // Language switched: the orb shows the new text (in full if it was already typed)
+      document.addEventListener("st:lang", () => {
+        fullText = T("home.orb", fullText);
+        if (isPinned) orbText.textContent = fullText;
+      });
+
       logo.addEventListener("click", pinAndType);
       heroOrb.addEventListener("click", pinAndType);
 
@@ -72,7 +80,7 @@
         newsletterFrame.addEventListener("load", () => {
           if (!newsletterPending) return;
           finishNewsletterSubmission(
-            "Request sent. Check your inbox and spam folder to confirm your subscription.",
+            T("home.nlSent", "Request sent. Check your inbox and spam folder to confirm your subscription."),
             true
           );
         });
@@ -84,18 +92,18 @@
 
           if (!newsletterEmail.checkValidity()) {
             event.preventDefault();
-            newsletterStatus.textContent = "Please enter a valid email address.";
+            newsletterStatus.textContent = T("home.nlInvalid", "Please enter a valid email address.");
             return;
           }
 
           newsletterPending = true;
           if (newsletterButton) newsletterButton.disabled = true;
-          newsletterStatus.textContent = "Sending your request to the newsletter service...";
+          newsletterStatus.textContent = T("home.nlSending", "Sending your request to the newsletter service...");
 
           newsletterFallbackTimer = window.setTimeout(() => {
             if (!newsletterPending) return;
             finishNewsletterSubmission(
-              "If nothing arrived after a few minutes, please try again. Check your inbox and spam folder.",
+              T("home.nlRetry", "If nothing arrived after a few minutes, please try again. Check your inbox and spam folder."),
               false
             );
           }, 12000);

@@ -8,3 +8,6 @@ perf-data/
 *.bak
 *.bak.*
 *.bak-*
+reports-draft/
+# Published reports (PDF + manifest), written by ~/saheltrigger-reports/publish.sh
+reportory/

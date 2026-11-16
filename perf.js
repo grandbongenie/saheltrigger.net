@@ -11,10 +11,18 @@
   const chartEl = document.getElementById("chart");
   const legendEl = document.getElementById("chartLegend");
 
+  // Texts from i18n/en.js and i18n/fr.js; labels of perf.json are translated with "perf.label.<label>"
+  const I = window.ST_I18N;
+  const tr = (key, fallback, vars) => (I ? I.t(key, vars) : fallback);
+  const lab = (label) => (I ? I.tOr("perf.label." + label, label) : label);
+  const loc = () => (I ? I.locale : undefined);
+  const num = (v, d) => v.toLocaleString(loc(), { minimumFractionDigits: d, maximumFractionDigits: d });
+  let lastData = null;
+
   function fmtPct(v) {
     if (typeof v !== "number" || !isFinite(v)) return "–";
-    const s = v.toFixed(2).replace("-0.00", "0.00");
-    return (v > 0 ? "+" : "") + s + " %";
+    const r = Math.round(v * 100) / 100;
+    return (r > 0 ? "+" : "") + num(r === 0 ? 0 : r, 2) + " %";
   }
 
   function signClass(v) {
@@ -29,13 +37,13 @@
     l.className = "label";
     l.textContent = label;
     const v = document.createElement("div");
-    const num = typeof value === "number" && isFinite(value);
+    const isNum = typeof value === "number" && isFinite(value);
     if (kind === "level") {
       v.className = "value";
-      v.textContent = num ? value.toFixed(2) + " %" : "–";
+      v.textContent = isNum ? num(value, 2) + " %" : "–";
     } else {
       v.className = "value " + signClass(value);
-      v.textContent = kind === "ratio" ? (num ? value.toFixed(2) : "–") : fmtPct(value);
+      v.textContent = kind === "ratio" ? (isNum ? num(value, 2) : "–") : fmtPct(value);
     }
     div.append(l, v);
     return div;
@@ -44,7 +52,7 @@
   function fmtDate(iso) {
     const d = new Date(iso);
     if (isNaN(d)) return iso || "";
-    return d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+    return d.toLocaleString(loc(), { dateStyle: "medium", timeStyle: "short" });
   }
 
   function renderCards(data) {
@@ -52,10 +60,10 @@
       const sec = document.createElement("section");
       sec.className = "perf-panel";
       const h = document.createElement("h2");
-      h.textContent = g.title;
+      h.textContent = lab(g.title);
       const grid = document.createElement("div");
       grid.className = "perf-cards";
-      grid.append(...(g.items || []).map((it) => card(it.label, it.value, it.kind)));
+      grid.append(...(g.items || []).map((it) => card(lab(it.label), it.value, it.kind)));
       sec.append(h, grid);
       return sec;
     });
@@ -68,7 +76,7 @@
     chartEl.replaceChildren();
     legendEl.replaceChildren();
     if (hist.length < 2 || !series.length) {
-      chartEl.textContent = "Not enough data yet.";
+      chartEl.textContent = tr("perf.notEnough", "Not enough data yet.");
       return;
     }
 
@@ -103,15 +111,16 @@
     for (let k = 0; k <= 4; k++) {
       const v = lo + ((hi - lo) * k) / 4;
       el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "axis" });
-      el("text", { x: L - 6, y: y(v) + 4, "text-anchor": "end" }, v.toFixed(1) + "%");
+      el("text", { x: L - 6, y: y(v) + 4, "text-anchor": "end" }, num(v, 1) + "%");
     }
     if (lo < 0 && hi > 0) el("line", { x1: L, x2: W - R, y1: y(0), y2: y(0), class: "zero" });
 
-    // x labels: first, middle, last
-    [0, Math.floor((n - 1) / 2), n - 1].forEach((i, k) => {
+    // x labels: first, middle, last (each date once, even with only 2 or 3 days)
+    [0, Math.floor((n - 1) / 2), n - 1].forEach((i, k, all) => {
+      if (all.indexOf(i) !== k) return;
       const d = new Date(times[i]);
       el("text", { x: x(i), y: H - 10, "text-anchor": ["start", "middle", "end"][k] },
-        d.toLocaleDateString(undefined, { day: "2-digit", month: "short" }));
+        d.toLocaleDateString(loc(), { day: "2-digit", month: "short" }));
     });
 
     series.forEach((s, si) => {
@@ -126,7 +135,7 @@
       el("path", { d, fill: "none", stroke: c, "stroke-width": 2.5, "stroke-linejoin": "round" });
       const lg = document.createElement("span");
       lg.style.setProperty("--c", c);
-      lg.textContent = s.label;
+      lg.textContent = lab(s.label);
       legendEl.appendChild(lg);
     });
 
@@ -143,17 +152,29 @@
         } catch (_) { /* missing or not JSON (nginx falls back to index.html): try the next one */ }
       }
       if (!data) throw new Error("no data");
-      renderCards(data);
-      renderChart(data);
-      const age = Date.now() - new Date(data.updated).getTime();
-      statusEl.textContent = "Last update: " + fmtDate(data.updated);
-      statusEl.classList.toggle("stale", age > STALE_MS);
-      if (age > STALE_MS) statusEl.textContent += " (markets closed or update paused)";
+      lastData = data;
+      render(data);
     } catch (e) {
-      statusEl.textContent = "Performance data is not available right now.";
+      lastData = null;
+      statusEl.textContent = tr("perf.unavailable", "Performance data is not available right now.");
       statusEl.classList.add("stale");
     }
   }
+
+  function render(data) {
+    renderCards(data);
+    renderChart(data);
+    const age = Date.now() - new Date(data.updated).getTime();
+    statusEl.textContent = tr("perf.lastUpdate", "Last update: " + fmtDate(data.updated), { date: fmtDate(data.updated) });
+    statusEl.classList.toggle("stale", age > STALE_MS);
+    if (age > STALE_MS) statusEl.textContent += tr("perf.stale", " (markets closed or update paused)");
+  }
+
+  // Language switched: redraw with the data already loaded
+  document.addEventListener("st:lang", () => {
+    if (lastData) render(lastData);
+    else statusEl.textContent = tr("perf.unavailable", "Performance data is not available right now.");
+  });
 
   load();
   setInterval(load, REFRESH_MS);
