@@ -1,0 +1,109 @@
+/* i18n/legal.css — legal notice page + the small "Legal notice" footer link (all pages). */
+
+/* Footer link at the bottom of reforestation, perf, report and the legal page */
+.site-footer {
+  width: min(1000px, 92vw);
+  margin: 0 auto;
+  padding: 0 0 28px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #ffffff;
+}
+
+/* Home: legal link centred just under the orb */
+.home-legal {
+  position: fixed;
+  left: 50%;
+  top: min(calc(var(--orb-top-y) + var(--orb-size) + 10px), calc(100vh - 26px));
+  transform: translateX(-50%);
+  z-index: 3;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+@media (max-width: 840px) {
+  .home-legal {
+    top: calc(50% + var(--orb-size) * 0.485 + 10px);
+  }
+}
+
+.home-legal a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.home-legal a:hover,
+.home-legal a:focus-visible {
+  color: #ffffff;
+}
+
+/* Home: one line under the newsletter form (white box, blue text) */
+.newsletter-legal {
+  margin: 4px 0 0;
+  font-size: 11px;
+  line-height: 1.35;
+  color: rgba(38, 52, 137, 0.75);
+}
+
+.newsletter-legal a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Legal notice page */
+.legal {
+  line-height: 1.55;
+}
+
+.legal h2 {
+  margin: 22px 0 6px;
+  font-size: clamp(19px, 2vw, 24px);
+  color: var(--brown);
+}
+
+.legal h2:first-child {
+  margin-top: 0;
+}
+
+.legal p,
+.legal ul {
+  margin: 0 0 8px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.legal ul {
+  padding-left: 1.2em;
+}
+
+.legal a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.legal .updated {
+  margin-top: 18px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+/* Home newsletter: trap field for robots (kept off-screen, not display:none, so simple robots still see it) */
+.nl-trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

@@ -6,8 +6,9 @@
   <title data-i18n="meta.report">Report | Sahel Trigger</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="report.css?v=20261116" />
+  <link rel="stylesheet" href="report.css?v=20261117" />
   <link rel="stylesheet" href="i18n/i18n.css?v=11" />
+  <link rel="stylesheet" href="i18n/legal.css?v=1" />
 </head>
 <body>
   <div class="nav-band">
@@ -24,28 +25,40 @@
   <main class="page">
     <section class="hero">
       <h1 data-i18n="report.title">Report</h1>
-      <p data-i18n="report.intro">The Sahel Trigger research lab publishes a weekly report after each trading week and a monthly report at the end of each month. Every report shows the work done and the results, good or bad.</p>
+      <p data-i18n="report.intro">The Sahel Trigger research lab publishes a weekly report after each trading week, a monthly report at the end of each month, a quarterly report at the end of each quarter and an annual report at the end of each year. Every report shows the work done and the results, negative or positive.</p>
     </section>
 
     <section class="panel">
       <div class="status" id="status" data-i18n="report.loading">Loading reports…</div>
       <div class="report-columns">
         <article class="report-column">
+          <h2 data-i18n="report.weekly">Weekly</h2>
+          <div id="weekly-list"></div>
+        </article>
+
+        <article class="report-column">
           <h2 data-i18n="report.monthly">Monthly</h2>
           <div id="monthly-list"></div>
         </article>
 
         <article class="report-column">
-          <h2 data-i18n="report.weekly">Weekly</h2>
-          <div id="weekly-list"></div>
+          <h2 data-i18n="report.quarterly">Quarterly</h2>
+          <div id="quarterly-list"></div>
+        </article>
+
+        <article class="report-column">
+          <h2 data-i18n="report.annual">Annual</h2>
+          <div id="annual-list"></div>
         </article>
       </div>
     </section>
   </main>
 
-  <script src="i18n/en.js?v=2"></script>
-<script src="i18n/fr.js?v=3"></script>
+  <footer class="site-footer"><a href="mentions-legales.html" data-i18n="legal.link">Legal notice</a></footer>
+
+  <script src="i18n/en.js?v=8"></script>
+<script src="i18n/fr.js?v=13"></script>
 <script src="i18n/i18n.js?v=1"></script>
-  <script src="report.js?v=20261116c"></script>
+  <script src="report.js?v=20261117b"></script>
 </body>
 </html>

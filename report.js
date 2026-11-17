@@ -2,7 +2,7 @@
   "use strict";
 
   // Published reports are listed in /reportory/manifest.json (written by publish.sh on the server):
-  // { "monthly": [{ "period", "title", "start", "url", "urlFr", "published" }, ...], "weekly": [...] }, newest first.
+  // { "monthly": [{ "period", "title", "start", "url", "urlFr", "published" }, ...], "weekly", "quarterly", "annual": [...] }, newest first.
   // url = English PDF, urlFr = French PDF: the page opens the one matching the site language
   // (French falls back to English, marked "PDF en anglais"). Report titles are rebuilt in the page language.
   const BASE = "/reportory/";
@@ -13,7 +13,8 @@
   const loc = () => (I ? I.locale : undefined);
 
   const statusEl = document.getElementById("status");
-  const boxes = { monthly: document.getElementById("monthly-list"), weekly: document.getElementById("weekly-list") };
+  const KINDS = ["weekly", "monthly", "quarterly", "annual"]; // page order
+  const boxes = Object.fromEntries(KINDS.map((k) => [k, document.getElementById(k + "-list")]));
   let data = null;
 
   function href(url) {
@@ -25,9 +26,13 @@
     return isNaN(d) ? "" : d.toLocaleDateString(loc(), { day: "numeric", month: "short", year: "numeric" });
   }
 
-  // "2026-11" -> "November 2026" / "Novembre 2026"; "2026-W47" + start -> "Week 47, 16–20 November 2026"
+  // "2026-11" -> "November 2026" / "Novembre 2026"; "2026-W47" + start -> "Week 47, 16–20 November 2026";
+  // "2026-Q4" -> "Q4 2026" / "4e trimestre 2026"; "2026" -> "Year 2026" / "Année 2026"
   function title(item) {
     const p = item.period || "";
+    let q = /^(\d{4})-Q([1-4])$/.exec(p);
+    if (q) return tr("report.quarter" + (q[2] === "1" ? "1" : ""), item.title, { n: +q[2], year: q[1] });
+    if (/^\d{4}$/.test(p)) return tr("report.year", item.title, { year: p });
     let m = /^(\d{4})-(\d{2})$/.exec(p);
     if (m) {
       const s = new Date(Date.UTC(+m[1], +m[2] - 1, 15)).toLocaleDateString(loc(), { month: "long", year: "numeric", timeZone: "UTC" });
@@ -120,23 +125,19 @@
   }
 
   function render() {
-    renderList("monthly", data.monthly);
-    renderList("weekly", data.weekly);
-    const n = data.monthly.length + data.weekly.length;
+    KINDS.forEach((k) => renderList(k, data[k]));
+    const n = KINDS.reduce((a, k) => a + data[k].length, 0);
     statusEl.textContent = n ? "" : tr("report.none", "No report has been published yet.");
     statusEl.hidden = n > 0;
   }
 
   async function main() {
-    data = { monthly: [], weekly: [] };
+    data = Object.fromEntries(KINDS.map((k) => [k, []]));
     try {
       const res = await fetch(BASE + "manifest.json?t=" + Date.now(), { cache: "no-store" });
       if (res.ok) {
         const raw = await res.json();
-        data = {
-          monthly: Array.isArray(raw.monthly) ? raw.monthly.filter((x) => x && x.url) : [],
-          weekly: Array.isArray(raw.weekly) ? raw.weekly.filter((x) => x && x.url) : [],
-        };
+        data = Object.fromEntries(KINDS.map((k) => [k, Array.isArray(raw[k]) ? raw[k].filter((x) => x && x.url) : []]));
       }
     } catch (_) { /* no manifest yet: empty columns */ }
     render();
