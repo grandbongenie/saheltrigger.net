@@ -6,7 +6,7 @@
   <title data-i18n="meta.perf">Perf | Sahel Trigger</title>
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="perf.css?v=16" />
+  <link rel="stylesheet" href="perf.css?v=17" />
   <link rel="stylesheet" href="i18n/i18n.css?v=11" />
   <link rel="stylesheet" href="i18n/legal.css?v=1" />
 </head>
@@ -29,7 +29,13 @@
     </section>
 
     <section class="perf-panel">
-      <h2 data-i18n="perf.history">Daily history</h2>
+      <div class="chart-head">
+        <h2 id="chartTitle" data-i18n="perf.history">Daily history</h2>
+        <div class="chart-mode" id="chartMode" role="group" aria-label="Chart period" data-i18n-attr="aria-label:perf.modeAria">
+          <button type="button" data-mode="live" aria-pressed="false" data-i18n="perf.modeLive">Live · 10 min</button>
+          <button type="button" data-mode="daily" aria-pressed="true" data-i18n="perf.modeDaily">Daily</button>
+        </div>
+      </div>
       <div class="chart-legend" id="chartLegend"></div>
       <div class="chart-wrap" id="chart" role="img" aria-label="Performance history chart" data-i18n-attr="aria-label:perf.chartAria"></div>
     </section>
@@ -41,9 +47,9 @@
 
   <footer class="site-footer"><a href="mentions-legales.html" data-i18n="legal.link">Legal notice</a></footer>
 
-  <script src="i18n/en.js?v=8"></script>
-<script src="i18n/fr.js?v=13"></script>
+  <script src="i18n/en.js?v=9"></script>
+<script src="i18n/fr.js?v=14"></script>
 <script src="i18n/i18n.js?v=1"></script>
-  <script src="perf.js?v=8" defer></script>
+  <script src="perf.js?v=9" defer></script>
 </body>
 </html>

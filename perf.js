@@ -10,6 +10,14 @@
   const groupsEl = document.getElementById("groups");
   const chartEl = document.getElementById("chart");
   const legendEl = document.getElementById("chartLegend");
+  const titleEl = document.getElementById("chartTitle");
+  const modeEl = document.getElementById("chartMode");
+
+  // Chart period: "daily" = data.history (NAV DX, one point per day),
+  // "live" = data.live (NAV_HISTORY, one point every 10 minutes). The last choice is remembered.
+  const MODE_KEY = "st-perf-mode";
+  let mode = "daily";
+  try { if (localStorage.getItem(MODE_KEY) === "live") mode = "live"; } catch (_) { /* storage blocked */ }
 
   // Texts from i18n/en.js and i18n/fr.js; labels of perf.json are translated with "perf.label.<label>"
   const I = window.ST_I18N;
@@ -71,12 +79,15 @@
   }
 
   function renderChart(data) {
+    const live = mode === "live";
     const series = data.series || [];
-    const hist = data.history || [];
+    const hist = (live ? data.live : data.history) || [];
     chartEl.replaceChildren();
     legendEl.replaceChildren();
     if (hist.length < 2 || !series.length) {
-      chartEl.textContent = tr("perf.notEnough", "Not enough data yet.");
+      chartEl.textContent = live
+        ? tr("perf.liveNotEnough", "Not enough live data yet (one point every 10 minutes).")
+        : tr("perf.notEnough", "Not enough data yet.");
       return;
     }
 
@@ -120,7 +131,9 @@
       if (all.indexOf(i) !== k) return;
       const d = new Date(times[i]);
       el("text", { x: x(i), y: H - 10, "text-anchor": ["start", "middle", "end"][k] },
-        d.toLocaleDateString(loc(), { day: "2-digit", month: "short" }));
+        live
+          ? d.toLocaleString(loc(), { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit" })
+          : d.toLocaleDateString(loc(), { day: "2-digit", month: "short" }));
     });
 
     series.forEach((s, si) => {
@@ -132,7 +145,7 @@
         d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1);
         pen = true;
       });
-      el("path", { d, fill: "none", stroke: c, "stroke-width": 2.5, "stroke-linejoin": "round" });
+      el("path", { d, fill: "none", stroke: c, "stroke-width": live ? 2 : 2.5, "stroke-linejoin": "round" });
       const lg = document.createElement("span");
       lg.style.setProperty("--c", c);
       lg.textContent = lab(s.label);
@@ -161,7 +174,28 @@
     }
   }
 
+  // Switch buttons and chart title follow the current mode
+  function syncMode() {
+    titleEl.setAttribute("data-i18n", mode === "live" ? "perf.liveTitle" : "perf.history");
+    titleEl.textContent = mode === "live"
+      ? tr("perf.liveTitle", "Live - every 10 minutes")
+      : tr("perf.history", "Daily history");
+    modeEl.querySelectorAll("button").forEach((b) => {
+      b.setAttribute("aria-pressed", b.dataset.mode === mode ? "true" : "false");
+    });
+  }
+
+  modeEl.addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-mode]");
+    if (!b || b.dataset.mode === mode) return;
+    mode = b.dataset.mode;
+    try { localStorage.setItem(MODE_KEY, mode); } catch (_) { /* not remembered, still works */ }
+    syncMode();
+    if (lastData) renderChart(lastData);
+  });
+
   function render(data) {
+    syncMode();
     renderCards(data);
     renderChart(data);
     const age = Date.now() - new Date(data.updated).getTime();
@@ -176,6 +210,7 @@
     else statusEl.textContent = tr("perf.unavailable", "Performance data is not available right now.");
   });
 
+  syncMode();
   load();
   setInterval(load, REFRESH_MS);
 })();

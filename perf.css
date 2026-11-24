@@ -216,6 +216,47 @@ body {
 .perf-card .value.neg { color: var(--neg); }
 
 /* ---------------------------------------------------------------- chart */
+/* Title on the left, Daily / Live switch on the right (wraps under the title on small screens) */
+.chart-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin-bottom: 12px;
+}
+
+.perf .chart-head h2 { margin: 0; }
+
+.chart-mode {
+  display: inline-flex;
+  padding: 3px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.chart-mode button {
+  font: inherit;
+  font-size: 15px;
+  line-height: 1;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chart-mode button:hover { color: var(--light); background: rgba(255, 255, 255, 0.08); }
+.chart-mode button:focus-visible { outline: 2px solid var(--pos); outline-offset: 2px; }
+
+.chart-mode button[aria-pressed="true"] {
+  background: var(--green);
+  color: var(--light);
+}
+
 .chart-wrap { width: 100%; }
 .chart-wrap svg { width: 100%; height: auto; display: block; }
 .chart-wrap .axis { stroke: rgba(255, 255, 255, 0.18); stroke-width: 1; }
