@@ -151,7 +151,7 @@ window.ST_LOCALES.fr = {
   "meta.legal": "Mentions légales | Sahel Trigger",
   "legal.title": "Mentions légales",
   "legal.publisherTitle": "Éditeur",
-  "legal.publisher": "saheltrigger.net est un site personnel, édité par un particulier. Conformément à l'article 6-III-2 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'identité de l'éditeur a été communiquée à l'hébergeur.",
+  "legal.publisher": "saheltrigger.net est un site personnel. Conformément à l'article 6-III-2 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN), l'identité de l'éditeur a été communiquée à l'hébergeur.",
   "legal.contact": "Contact :",
   "legal.hostTitle": "Hébergeur",
   "legal.phone": "Téléphone :",

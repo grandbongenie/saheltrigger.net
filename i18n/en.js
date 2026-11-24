@@ -150,7 +150,7 @@ window.ST_LOCALES.en = {
   "meta.legal": "Legal notice | Sahel Trigger",
   "legal.title": "Legal notice",
   "legal.publisherTitle": "Publisher",
-  "legal.publisher": "saheltrigger.net is a personal website published by a private individual. In accordance with article 6-III-2 of French law no. 2004-575 of 21 June 2004 (LCEN), the publisher's identity has been provided to the host.",
+  "legal.publisher": "saheltrigger.net is a personal website. In accordance with article 6-III-2 of French law no. 2004-575 of 21 June 2004 (LCEN), the publisher's identity has been provided to the host.",
   "legal.contact": "Contact:",
   "legal.hostTitle": "Host",
   "legal.phone": "Phone:",
